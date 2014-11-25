@@ -1,0 +1,21 @@
+{
+  "name": "php-proxy-middleware",
+  "version": "0.0.1",
+  "description": "Middleware to forward requests to a built-in PHP server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Felix Gnass <fgnass@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "php-built-in-server": "^0.1.4",
+    "proxy-middleware": "^0.7.0"
+  },
+  "devDependencies": {
+    "express": "^4.10.2",
+    "servertest": "^1.1.1",
+    "tap": "^0.4.13"
+  }
+}
