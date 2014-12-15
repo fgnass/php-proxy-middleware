@@ -2,12 +2,16 @@
   "name": "php-proxy-middleware",
   "version": "0.0.1",
   "description": "Middleware to forward requests to a built-in PHP server",
+  "author": "Felix Gnass <fgnass@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fgnass/php-proxy-middleware.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node test"
   },
-  "author": "Felix Gnass <fgnass@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "debug": "^2.1.0",
     "php-built-in-server": "^0.1.4",
