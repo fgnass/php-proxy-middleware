@@ -24,7 +24,8 @@ module.exports = function(opts) {
         protocol: 'http:',
         hostname: ev.host.address,
         port: ev.host.port,
-        pathname: opts.prefix || ''
+        pathname: opts.prefix || '',
+        preserveHost: true
       })
       php.emit('ready')
     }, 100)
