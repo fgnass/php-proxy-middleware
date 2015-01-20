@@ -1,7 +1,7 @@
 # php-proxy-middleware
 
 Node middleware that forwards requests to a built-in PHP server.
-Uses [proxy-middleware](https://www.npmjs.org/package/proxy-middleware) and [php-built-in-server](https://www.npmjs.org/package/php-built-in-server) under the hood.
+Uses [proxy-middleware](https://www.npmjs.com/package/proxy-middleware) and [php-built-in-server](https://www.npmjs.com/package/php-built-in-server) under the hood.
 
 
 ## Usage
