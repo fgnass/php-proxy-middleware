@@ -1,6 +1,6 @@
 {
   "name": "php-proxy-middleware",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Middleware to forward requests to a built-in PHP server",
   "author": "Felix Gnass <fgnass@gmail.com>",
   "license": "MIT",
